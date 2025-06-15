@@ -1,0 +1,200 @@
+{
+  "experiences": [],
+  "patterns": {},
+  "improvements": [
+    {
+      "id": "performance_1750015587601",
+      "description": "Optimizar algoritmos de generación de código",
+      "riskLevel": "low",
+      "type": "approved_improvement",
+      "status": "implemented",
+      "implementedAt": "2025-06-15T19:26:44.615Z"
+    },
+    {
+      "id": "performance_1750015707585",
+      "description": "Optimizar algoritmos de generación de código",
+      "riskLevel": "low",
+      "type": "approved_improvement",
+      "status": "implemented",
+      "implementedAt": "2025-06-15T19:28:44.593Z"
+    },
+    {
+      "id": "performance_1750015767610",
+      "description": "Optimizar algoritmos de generación de código",
+      "riskLevel": "low",
+      "type": "approved_improvement",
+      "status": "implemented",
+      "implementedAt": "2025-06-15T19:29:44.623Z"
+    },
+    {
+      "id": "performance_1750015947620",
+      "description": "Optimizar algoritmos de generación de código",
+      "riskLevel": "low",
+      "type": "approved_improvement",
+      "status": "implemented",
+      "implementedAt": "2025-06-15T19:32:44.639Z"
+    },
+    {
+      "id": "escalation_1750016007584",
+      "type": "autonomy_escalation",
+      "description": "Escalamiento automático de nivel 1 a 2",
+      "metrics": {
+        "totalProjects": 5,
+        "completedProjects": 5,
+        "failedProjects": 0,
+        "successRate": 100,
+        "autonomyLevel": 1,
+        "improvementsImplemented": 4
+      },
+      "timestamp": "2025-06-15T19:33:27.584Z"
+    },
+    {
+      "id": "performance_1750016007587",
+      "description": "Optimizar algoritmos de generación de código",
+      "riskLevel": "low",
+      "type": "approved_improvement",
+      "status": "implemented",
+      "implementedAt": "2025-06-15T19:33:44.603Z"
+    },
+    {
+      "id": "performance_1750016127635",
+      "description": "Optimizar algoritmos de generación de código",
+      "riskLevel": "low",
+      "type": "approved_improvement",
+      "status": "implemented",
+      "implementedAt": "2025-06-15T19:35:44.656Z"
+    }
+  ],
+  "pendingApprovals": [
+    {
+      "id": "approval_1750015410592",
+      "type": "project_execution",
+      "projectId": "auto_1750015410592",
+      "description": "Crear página web corporativa simple",
+      "complexity": 2,
+      "timestamp": "2025-06-15T19:23:30.592Z",
+      "status": "approved",
+      "decidedAt": "2025-06-15T19:24:00.602Z",
+      "feedback": "Auto-aprobado para demo"
+    },
+    {
+      "id": "approval_1750015427592",
+      "type": "project_execution",
+      "projectId": "auto_1750015427591",
+      "description": "Desarrollar API REST para gestión de usuarios",
+      "complexity": 3,
+      "timestamp": "2025-06-15T19:23:47.592Z",
+      "status": "approved",
+      "decidedAt": "2025-06-15T19:24:17.596Z",
+      "feedback": "Auto-aprobado para demo"
+    },
+    {
+      "id": "approval_1750015447596",
+      "type": "project_execution",
+      "projectId": "auto_1750015447595",
+      "description": "Implementar chat bot inteligente",
+      "complexity": 5,
+      "timestamp": "2025-06-15T19:24:07.596Z",
+      "status": "approved",
+      "decidedAt": "2025-06-15T19:24:37.609Z",
+      "feedback": "Auto-aprobado para demo"
+    },
+    {
+      "id": "approval_1750015467597",
+      "type": "project_execution",
+      "projectId": "auto_1750015467596",
+      "description": "Crear dashboard administrativo con métricas",
+      "complexity": 4,
+      "timestamp": "2025-06-15T19:24:27.597Z",
+      "status": "approved",
+      "decidedAt": "2025-06-15T19:24:57.604Z",
+      "feedback": "Auto-aprobado para demo"
+    },
+    {
+      "id": "approval_1750015487597",
+      "type": "project_execution",
+      "projectId": "auto_1750015487596",
+      "description": "Sistema de notificaciones en tiempo real",
+      "complexity": 2,
+      "timestamp": "2025-06-15T19:24:47.597Z",
+      "status": "approved",
+      "decidedAt": "2025-06-15T19:25:17.609Z",
+      "feedback": "Auto-aprobado para demo"
+    },
+    {
+      "id": "approval_1750015587602",
+      "type": "improvement_implementation",
+      "improvementId": "performance_1750015587601",
+      "description": "Optimizar algoritmos de generación de código",
+      "riskLevel": "low",
+      "timestamp": "2025-06-15T19:26:27.602Z",
+      "status": "approved",
+      "decidedAt": "2025-06-15T19:26:42.609Z",
+      "feedback": "Bajo riesgo - auto-aprobado"
+    },
+    {
+      "id": "approval_1750015707586",
+      "type": "improvement_implementation",
+      "improvementId": "performance_1750015707585",
+      "description": "Optimizar algoritmos de generación de código",
+      "riskLevel": "low",
+      "timestamp": "2025-06-15T19:28:27.586Z",
+      "status": "approved",
+      "decidedAt": "2025-06-15T19:28:42.592Z",
+      "feedback": "Bajo riesgo - auto-aprobado"
+    },
+    {
+      "id": "approval_1750015767611",
+      "type": "improvement_implementation",
+      "improvementId": "performance_1750015767610",
+      "description": "Optimizar algoritmos de generación de código",
+      "riskLevel": "low",
+      "timestamp": "2025-06-15T19:29:27.611Z",
+      "status": "approved",
+      "decidedAt": "2025-06-15T19:29:42.619Z",
+      "feedback": "Bajo riesgo - auto-aprobado"
+    },
+    {
+      "id": "approval_1750015947622",
+      "type": "improvement_implementation",
+      "improvementId": "performance_1750015947620",
+      "description": "Optimizar algoritmos de generación de código",
+      "riskLevel": "low",
+      "timestamp": "2025-06-15T19:32:27.622Z",
+      "status": "approved",
+      "decidedAt": "2025-06-15T19:32:42.634Z",
+      "feedback": "Bajo riesgo - auto-aprobado"
+    },
+    {
+      "id": "approval_1750016007587",
+      "type": "improvement_implementation",
+      "improvementId": "performance_1750016007587",
+      "description": "Optimizar algoritmos de generación de código",
+      "riskLevel": "low",
+      "timestamp": "2025-06-15T19:33:27.587Z",
+      "status": "approved",
+      "decidedAt": "2025-06-15T19:33:42.596Z",
+      "feedback": "Bajo riesgo - auto-aprobado"
+    },
+    {
+      "id": "approval_1750016127636",
+      "type": "improvement_implementation",
+      "improvementId": "performance_1750016127635",
+      "description": "Optimizar algoritmos de generación de código",
+      "riskLevel": "low",
+      "timestamp": "2025-06-15T19:35:27.636Z",
+      "status": "approved",
+      "decidedAt": "2025-06-15T19:35:42.650Z",
+      "feedback": "Bajo riesgo - auto-aprobado"
+    }
+  ],
+  "successMetrics": {
+    "totalProjects": 5,
+    "completedProjects": 5,
+    "failedProjects": 0,
+    "successRate": 100,
+    "timeToCompletion": []
+  },
+  "autonomyLevel": 2,
+  "lastSaved": "2025-06-15T19:35:44.659Z"
+}

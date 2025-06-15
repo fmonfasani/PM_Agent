@@ -1,0 +1,37 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "./projects"],
+      "description": "File system operations for projects"
+    },
+    "sqlite": {
+      "command": "npx", 
+      "args": ["-y", "@modelcontextprotocol/server-sqlite", "--db-path", "./mcp-data.db"],
+      "description": "SQLite database for project data"
+    },
+    "brave-search": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-brave-search"],
+      "env": {
+        "BRAVE_API_KEY": "your-brave-api-key-here"
+      },
+      "description": "Web search capabilities"
+    }
+  },
+  "clientConfig": {
+    "timeout": 30000,
+    "retries": 3,
+    "logLevel": "info"
+  },
+  "agentMappings": {
+    "claude": {
+      "preferredTools": ["filesystem", "sqlite"],
+      "specialties": ["architecture", "analysis", "planning"]
+    },
+    "gpt": {
+      "preferredTools": ["brave-search", "filesystem"],
+      "specialties": ["creativity", "frontend", "ui_ux"]
+    }
+  }
+}

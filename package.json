@@ -6,15 +6,25 @@
   "scripts": {
     "start": "node pm-bot.js",
     "task": "node pm-bot.js",
-    "test": "echo 'PM Bot Test Suite' && exit 0"
+    "mcp-server": "node mcp/servers/pm-bot-server.js",
+    "mcp-test": "npx @modelcontextprotocol/inspector node mcp/servers/pm-bot-server.js",
+    "test": "echo 'PM Bot Test Suite' && exit 0",
+    "mcp-full": "node pm-bot-mcp.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.27.3",
+    "@modelcontextprotocol/sdk": "^1.12.3",
     "@octokit/rest": "^20.1.2",
+    "cors": "^2.8.5",
     "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "node-cron": "^4.1.0",
     "openai": "^5.3.0"
   },
   "engines": {
     "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/inspector": "^0.14.2"
   }
 }

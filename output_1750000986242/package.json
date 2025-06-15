@@ -1,7 +1,0 @@
-{
-  "name": "sum-function",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "node sum.test.js"
-  }
-}
