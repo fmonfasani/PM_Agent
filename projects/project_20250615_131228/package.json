@@ -1,0 +1,10 @@
+{
+  "name": "autonomous-project",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Test passed\""
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
