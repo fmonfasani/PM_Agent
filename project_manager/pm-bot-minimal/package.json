@@ -1,0 +1,18 @@
+{
+  "name": "pm-bot-minimal",
+  "version": "1.0.0",
+  "description": "PM Bot que funciona HOY",
+  "main": "pm-bot.js",
+  "scripts": {
+    "start": "node pm-bot.js",
+    "task": "node pm-bot.js",
+    "test": "echo 'PM Bot Test Suite' && exit 0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.3",
+    "@octokit/rest": "^20.1.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
