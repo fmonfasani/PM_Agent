@@ -1,4 +1,4 @@
-// pm-bot.js - Project Manager Bot Mínimo que funciona HOY
+// pm-bot.js - Project Manager 0.0.1
 // Requisitos: Node.js, tokens de Anthropic y GitHub
 
 const fs = require('fs');
@@ -292,10 +292,11 @@ IMPORTANTE: Responde SOLO con el JSON, sin texto adicional.
     }
   }
 
+  
   // 📤 GITHUB: Subir código (versión simplificada para testing)
   async pushToGitHub(codeData, plan) {
-    console.log('📤 Simulando push a GitHub...');
-    
+    console.log('📤 push a GitHub...');
+    /*
     // Por ahora solo simulamos - puedes habilitar el push real después
     const mockUrl = `https://github.com/${this.projectConfig.owner}/${this.projectConfig.repo}/pull/mock-${this.currentTask.id}`;
     
@@ -312,9 +313,9 @@ IMPORTANTE: Responde SOLO con el JSON, sin texto adicional.
     console.log(`💾 Código guardado en: ${outputDir}`);
     console.log(`🔗 Mock GitHub URL: ${mockUrl}`);
     
-    return mockUrl;
+    return mockUrl;*/
     
-    /* DESCOMENTA PARA PUSH REAL A GITHUB:
+    //PUSH REAL A GITHUB:
     const workDir = this.projectConfig.workingDir;
     const branch = `feature/task-${this.currentTask.id}`;
     
@@ -341,7 +342,7 @@ IMPORTANTE: Responde SOLO con el JSON, sin texto adicional.
       console.error('Error subiendo a GitHub:', error.message);
       throw error;
     }
-    */
+    
   }
 
   // ✅ REPORTE: Informar éxito
